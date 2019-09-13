@@ -26,6 +26,15 @@
 
 按照 [如何使用Go编程](https://go-zh.org/doc/code.html) 编写好包的内容。可用`go build`测试语法等是否正确。
 
-编写好后将responsibility推送到github上。
+编写好后将本地代码推送到github的responsibility上。
+
+通过` go install github.com/xiekc/hello`安装hello程序，再运行`hello`，便可得到结果`Hello, Go!`。
 
 ### 测试
+
+ Go拥有一个轻量级的测试框架，它由 `go test` 命令和 `testing` 包构成。 
+
+用于测试的代码文件必须以`_test.go`作为后缀，包含名为 `TestXXX` 且签名为 `func (t *testing.T)` 函数。 测试框架会运行每一个这样的函数；若该函数调用了像 `t.Error` 或 `t.Fail` 这样表示失败的函数，此测试即表示失败。 
+
+编写好`reverse_test.go`后，进入包目录，运行`go test`。若输出`ok`， 则说明通过测试。
+
