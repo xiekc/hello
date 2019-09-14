@@ -14,7 +14,7 @@
 
 ### VSCode安装GO语言依赖工具
 
-因为无法直接访问相关网址，所以VSCode安装Go的依赖工具总会出现问题。可以参考[解决vscode中golang插件依赖安装失败问题](https://www.jianshu.com/p/6293503522bc)来解决这个问题。
+因为无法直接访问相关网址，所以VSCode安装Go的依赖工具总会出现问题。可以参考笔者的[Go 无法安装远程包的问题](https://blog.csdn.net/xiekch/article/details/83036815))来解决这个问题。
 
 ### Go包
 
